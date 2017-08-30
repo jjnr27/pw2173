@@ -1,8 +1,5 @@
 Primer lìnea del proyecto.     
 Segunda lìnea de proyecto.
 
-<<<<<<< HEAD
-Esta AQUI HAY CAMBIO MASTER lìnea es de la rama experimento. XD
-=======
-AQUI HAY CAMBIO DE EXPERIMENTO Esta lìnea es de la rama experimento. XDA
->>>>>>> experimento
+AQUI HAY CAMBIO DE EXPERIMENTO Esta lìnea es de la rama experimento. XD
+
