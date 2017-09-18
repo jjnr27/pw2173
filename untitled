@@ -1,0 +1,36 @@
+
+%EJERCICIO LABERINTO
+%Imagina que la siguiente base de conocimiento describe un laberinto. Los hechos determinan que los puntos que estan conectados , es decir 
+de que punto a que punto te puedes desplazar en un paso.
+
+%Ademas imagina que los caminos son solo en un sentido, es decir, puedes caminar solo en una direccion o sea que puedes caminar del punto 
+%1 al 2 , pero no en sentido contrario.
+
+%Escribe un predicado que te diga a que lugares puedes llegar desde un punto determinado.
+%¿ puedes llegar del punto 5 al 10?
+
+%¿A que punto se puede llegar al iniciar en el punto 1? y ¿ Que puntos se pueden alcanzar desde el punto 13?
+
+
+
+
+
+connected(1,2).
+connected(3,4).
+connected(5,6).
+connected(7,8).
+connected(9,10).
+connected(12,13).
+connected(13,14).
+connected(15,16).
+connected(17,18).
+connected(19,20).
+connected(4,1).
+connected(6,3).
+connected(4,7).
+connected(6,11).
+connected(14,9).
+connected(11,15).
+connected(16,12).
+connected(14,17).
+connected(16,19).
