@@ -1,0 +1,22 @@
+body{
+
+border: 1px solid red;
+width: 1024px;
+}
+header{
+	text-align: center;
+}
+header img{
+	float: right;
+	width: 150px;
+
+}
+header nav ul li{
+	background: red;
+	border-radius: 5px;
+	color: white;
+	margin: 0px 20px 0px 0px ;
+	padding: 5px 10px 5px 10px;
+	
+	display: inline-block;
+}
