@@ -1,22 +1,46 @@
 body{
-
 border: 1px solid red;
+margin:0 auto;
 width: 1024px;
+}
+footer{
+	background: blue;
+	color: white;
+	text-align: center;
 }
 header{
 	text-align: center;
+	border: 10px color solid blue;
 }
 header img{
 	float: right;
-	width: 150px;
+	margin-right: 15px;
+	margin-top: -60px;
+	width: 90px;
 
 }
+header nav{
+	margin-top: 60px;
+}
 header nav ul li{
-	background: red;
+	background: blue;
 	border-radius: 5px;
+	box-shadow: -3px -3px black;
 	color: white;
 	margin: 0px 20px 0px 0px ;
 	padding: 5px 10px 5px 10px;
-	
+	width: 80px;
 	display: inline-block;
+}
+header nav ul li:hover{
+	background: orange;
+	color:white;
+
+
+}
+section article{
+	border: 1px solid tomato;
+	display: inline-block;
+	vertical-align: top;
+	width: 32%;
 }
