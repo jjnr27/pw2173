@@ -1,47 +1,57 @@
 body{
-border: 1px solid red;
-margin:0 auto;
-width: 1024px;
+	/*
+	max-width:el tamaño maximo permitido de ancho ya no crece mas.
+	el tamaño de la fuente del navegador por defecto es de 16px=1em.
+	em:como su pronunciacion de M en inlges, donde quepa la M caben todas las letras ya que es la letra mas ancha del alfabeto;
+	la caja body contiene todas las demas cajas y la caja html contiene la caja body.
+	*/
+	border:1px solid blue;
+	font-size: 16px; /*1em*/
+	margin: 0 auto;
+	max-width: 1024px; 
 }
-footer{
-	background: blue;
+form{
+	float: right;
+	margin-right: 20px;
+	margin-top:-40px;
+}
+form input{
+	border-radius: 5px;
+}
+form input [type="button"]{
+	background: green;
 	color: white;
-	text-align: center;
 }
 header{
-	text-align: center;
-	border: 10px color solid blue;
-}
-header img{
-	float: right;
-	margin-right: 15px;
-	margin-top: -60px;
-	width: 90px;
-
+	background: #B3D8EB;
 }
 header nav{
-	margin-top: 60px;
+	background: #0E6CB0;
+	border-radius:5px;
+	margin: 0 auto;
+	padding: 2px 0px 2px 0px;
+	width: 99%
 
 }
 header nav ul li{
-	background: blue;
-	border-radius: 5px;
-	box-shadow: -3px -3px black;
 	color: white;
-	margin: 0px 20px 0px 0px ;
-	padding: 5px 10px 5px 10px;
-	width: 80px;
 	display: inline-block;
+	margin-right: 20px;
+	
 }
-header nav ul li:hover{
-	background: orange;
+#seccion01 article{
+	text-align: center;
+}
+#seccion01 article img{
+	border:5px solid rgba(150,150,150,0.5);
+	margin-top:15px;
+	width: 98%
+}
+#btn{
+	background: green;
 	color:white;
-
-
 }
-section article{
-	border: 1px solid tomato;
-	display: inline-block;
-	vertical-align: top;
-	width: 32%;
+#logo /*es un id*/
+{
+margin-top:-180px;
 }

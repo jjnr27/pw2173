@@ -1,10 +1,12 @@
-nota: todo en orden alfabético
-pseudoelementos @
-selectores - cambian atributos
-etiquetas ejem. p, html, div
-identificador  #id 
-clases ejem. .class es reusable
-media queries - diseño adaptativo
-
-css= hojas de estilo en cascada
-¿para que sirve? estilos, maquetar, diseño y color
+body{
+	/*
+	max-width:el tama�o maximo permitido de ancho ya no crece mas.
+	el tama�o de la fuente del navegador por defecto es de 16px=1em.
+	em:como su pronunciacion de M en inlges, donde quepa la M caben todas las letras ya que es la letra mas ancha del alfabeto;
+	la caja body contiene todas las demas cajas y la caja html contiene la caja body.
+	*/
+	border:1px solid blue;
+	font-size: 16px; /*1em*/
+	margin: 0 auto;
+	max-width: 1024px; 
+}
