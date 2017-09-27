@@ -47,6 +47,23 @@ header nav ul li{
 	margin-top:15px;
 	width: 98%
 }
+
+#seccion02 article{
+	display: inline-block;
+	vertical-align: top;
+	width: 33%;
+}
+#seccion02 article input[type ="submit"]{
+	border-radius: 5px;
+	font-size: 14px;
+	background: rgba(245,245,255,1);
+	color: blue;
+	margin-left: 100px;
+	padding: 7px;
+	
+
+}
+
 #btn{
 	background: green;
 	color:white;
@@ -54,4 +71,14 @@ header nav ul li{
 #logo /*es un id*/
 {
 margin-top:-180px;
+}
+.unaSeccion {/* es una clase */
+font-size: 4.4em;
+}
+.otraSeccion {/* es una clase */
+font-size: 2.5em;
+}
+.unaSeccion,.otraSeccion {/* Comparten el atributo ambas clases */
+
+font-weight: bold;
 }
