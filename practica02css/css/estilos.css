@@ -1,0 +1,20 @@
+body{
+
+	font-size: 16px; /* 1em*/
+	margin: 0 auto; /*centramos body*/
+	max-width: 1078px; /*empresa-cliente*/
+	
+}
+header input{
+	float: right;
+	margin-right: -200px;
+	margin-top: 15px;
+	position: relative;
+}
+#granthams {
+	margin-top: 20px;
+	margin-left: 25px;
+}
+#paint {
+	float: right;
+}
