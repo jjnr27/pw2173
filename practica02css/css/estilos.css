@@ -48,11 +48,68 @@ header input{
 	width: 60%;
 }
 #secc01art02{
+	margin-left: 50px;
 	width: 30%;
 }
+#secc01art02 ul {
+	list-style:none;
+}
+#secc01art02 ul li:before{ /*antes del texto*/
+	content: "• ";
+	color: #FF0099
+
+}
+#segundaseccion article{
+	text-align: right;
+	padding-right: 122px;
+	vertical-align: top;
+}
+#terceraseccion article{
+	display: inline-block;
+	width: 22%;
+	vertical-align: top;
+}
+#terceraseccion article img{
+	/*alineación vertical del texto */
+	vertical-align: middle;
+}
+#terceraseccion article input{
+	color: white;
+	font-size: 0.8em;
+	border-radius: 5px;
+}
+#terceraseccion article input[type=button]{
+	background: #A1D94D;
+}
+
 #bgoffer{
 	/*margin-top:-300px;*/
 	top: -410px;
 	left:-40px;
 	position: relative;
+}
+.colorrosa{
+	color: #FF0099
+}
+.comuntitulo{
+	font-size: 1.3em;
+}
+.distintotitulo{
+	font-size: 1.8em;
+}
+.rosagrande{
+	font-size: 3.5em;
+
+}
+.rosamediano{
+	font-size: 2em;
+}
+.nito{
+	font-weight: bold;
+}
+.colorverde{
+	color: green;
+}
+.colorazul{
+	color: blue;
 }
