@@ -1,0 +1,11 @@
+body{
+	width: 1024px;
+}
+#go{
+	border: 1px solid black;
+	border-radius: 150px;
+	background: gray;
+	color: white;
+	padding-left: 2.2px;
+	width:20px;
+}
