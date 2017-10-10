@@ -1,5 +1,29 @@
 body{
+	font-size: 16px;
+	margin:0 auto;
 	width: 1024px;
+}
+
+header nav{
+	background: #DD4812;
+	border-radius: 5px;
+	margin-left: 25px;
+	margin-top: 60px;
+	margin-bottom: 10px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+header nav ul li{
+	font-size: 1.4em;
+	color: white;
+	display: inline-block;
+	padding-left: -30px;
+	padding-right: 20px;
+
+}
+#red1{
+	margin-left: 700px;
+
 }
 #go{
 	border: 1px solid black;
@@ -8,4 +32,23 @@ body{
 	color: white;
 	padding-left: 2.2px;
 	width:20px;
+}
+#primerseccion article{
+	display: inline-block;
+	vertical-align: top;
+	width: 45%;
+
+}
+
+.titulo{
+	font-size: 1.5em;
+	color: white;
+	background: orange;
+	border-radius: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+.nito{
+	font-weight: bold;
 }
