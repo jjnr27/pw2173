@@ -1,0 +1,56 @@
+img[alt]{
+	border: 5px solid blue;
+}
+/*Imagen con atributo SRC cadena exacta*/
+img[src="img/alerta.png"]{
+	width: 400px;
+}
+/*^ = circunflejo 
+imagen con atributo src con el inicio de la cadena*/
+img[src^="img/"]{
+width: 150px;
+}
+/*imagen con el atributo src al final de la cadena*/
+img[src$="png"]{
+	width: 250px;
+
+}
+/*imagen con el atributo src en cualquier parte de la cadena*/
+
+img[src*="mg"]{
+	width: 1000px;
+
+}
+/*el caracter ~ indica que estos selectores en este 
+article estan separados por espacios*/
+article[class~="resaltado"]{
+	border: 1px dashed blue;
+}
+article[class~="ingles"]{
+	border: 1px dashed red;
+}
+/*el atributo id es una lista de valores separados por
+guiones, pero solo si el valor más a la izquierda es ingles*/
+article[id|="ingles"]{
+	text-align: center;
+}
+/*selector de secundarios para seleccionar solamente los hijos
+directos (<p>) que se encuentran inmediatamente después
+ del <div>*/
+div > p {
+	color: blue;
+}
+/*todos los elementos <p> serán seleccionados*/
+div p {
+	color:red;
+}
+/*seleccionar solo el elemento <p> que están inmediatamente después
+del elemento <h2> Hermano adyacente*/
+h2 + p{
+	color: green;
+}
+/*seleccionar todos los hermanos del tipo de 
+elemento especificado <p>  Hermano general*/
+h2 ~ p{
+	color: gray;
+}
