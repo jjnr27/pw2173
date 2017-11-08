@@ -2,18 +2,28 @@ body{
 color: grey;
 }
 form{
-	background: green;
+	background: black;
 	width: 200px;
 }
 table{
-	color: grey;
+	color: black;
 }
-input{
+form table tr td input[type="text"]{
 	border-radius: 5px;
+	box-shadow: blue 5px;
+	width: 170px;
 	background: lightgray;
 	font-size: 1em;
 	margin-left: 10px;
 	margin-right:-10px;
 }
-input
+form table tr td input[type="button"]{
+	border-radius: 5px;
+	box-shadow: blue 5px;
+	width: 30px;
+	background: lightgray;
+	font-size: 1em;
+	margin-left: 10px;
+	
+}
 
