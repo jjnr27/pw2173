@@ -1,0 +1,21 @@
+body{
+	width: 1024px;
+
+}
+section{
+	background: white;
+	border: black 1px ;
+}
+header{
+	background: #2c2e31;
+}
+section article{
+	width: 23%;
+	display: inline-block;
+	vertical-align: top;
+
+}
+#foto{
+	border-radius: 10px;
+	margin-left: 500px;
+}
