@@ -4,7 +4,8 @@
   "description": "Calculadora electron",
   "main": "main.js",
   "scripts": {
-    "start":"electron .",
+    "start": "electron .",
+    "empaqueta": "electron-packager . Calculadora --overwrite --asar",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -15,9 +16,11 @@
   "author": "Jorge Nuñez",
   "license": "MIT",
   "devDependencies": {
+    "asar": "^0.14.0",
     "electron": "^1.7.9",
     "electron-packager": "^9.1.0",
     "electron-require": "^0.3.0",
     "jquery": "^3.2.1"
-  }
+  },
+  "dependencies": {}
 }

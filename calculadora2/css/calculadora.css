@@ -1,0 +1,36 @@
+body{
+color: grey;
+}
+form{
+	background: #11afe3;
+	border-radius: 5px;
+	width: 305px;
+	height: 310px;
+	box-shadow: 5px 5px 5px #3f3f3f;
+}
+table{
+	color: black;
+
+}
+form table tr td input[type="text"]{
+	border-radius: 5px;
+	box-shadow: blue 5px;
+	width: 180px;
+	background: lightgray;
+	font-size: 1em;
+	margin-left: 50px;
+	margin-right:-10px;
+	margin-bottom: 10px;
+}
+form table tr td input[type="button"]{
+	border-radius: 5px;
+	box-shadow: blue 5px;
+	width: 35px;
+	background: lightgray;
+	font-size: 1em;
+	margin-left: 50px;
+	margin-right:-45px;
+	margin-bottom: 5px;
+	
+}
+
