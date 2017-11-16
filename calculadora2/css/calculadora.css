@@ -1,6 +1,7 @@
 body{
 color: grey;
 }
+
 form{
 	background: #11afe3;
 	border-radius: 5px;
@@ -25,12 +26,18 @@ form table tr td input[type="text"]{
 form table tr td input[type="button"]{
 	border-radius: 5px;
 	box-shadow: blue 5px;
-	width: 35px;
+	width: 50px;
 	background: lightgray;
-	font-size: 1em;
+	font-size: 1.2em;
 	margin-left: 50px;
 	margin-right:-45px;
 	margin-bottom: 5px;
 	
+}
+#btnCientifica{
+	background: grey;
+	color: black;
+	height: 20px;
+	width: 100px;
 }
 
