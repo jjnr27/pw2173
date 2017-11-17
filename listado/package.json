@@ -1,0 +1,24 @@
+{
+  "name": "listado",
+  "version": "1.0.0",
+  "description": "Listado de usuarios de randomuser",
+  "main": "main.js",
+  "scripts": {
+    "start":"electron . ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Electron",
+    "clase",
+    "pw",
+    "randomuser"
+  ],
+  "author": "Jorge Nuñez",
+  "license": "MIT",
+  "devDependencies": {
+    "asar": "^0.14.0",
+    "electron": "^1.7.9",
+    "electron-packager": "^9.1.0",
+    "jquery": "^3.2.1"
+  }
+}
