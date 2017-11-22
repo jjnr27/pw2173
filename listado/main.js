@@ -8,6 +8,14 @@ const {app,BrowserWindow} = require('electron');
 const path = require('path'); //muestra la ruta del archivo
 const url = require('url'); // carga una página
 // ECMASCRIPT = 6
+//objeto global para compartir datos entre pantallas
+global.infoUsuarios={
+	nombre: '',
+	genero:'',
+	foto:'',
+	direccion:'',
+	telefono:''
+}
 let PantallaPrincipal;
 
 function muestraPantallaPrincipal(){
@@ -19,7 +27,8 @@ function muestraPantallaPrincipal(){
 	}))
 	
 	
-	//PantallaPrincipal.webContents.openDevTools();
-	PantallaPrincipal.show;
+	PantallaPrincipal.webContents.openDevTools();
+	PantallaPrincipal.show();
 }
+
 app.on('ready',muestraPantallaPrincipal)
